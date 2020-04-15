@@ -20,6 +20,10 @@ npm run dev
 
 Le styleguide est désormais stylisé et se recharge lorsque le CSS est mis à jour.
 
+### En cas de pépin (page blanche)
+
+Supprimez les dossiers dist et .cache (`rm -rf dist/ .cache/`) et relancez.
+
 ## Ressources
 
 ### Atomic Design
