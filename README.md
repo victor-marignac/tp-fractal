@@ -17,7 +17,7 @@ Dans un autre terminal, lancez :
 npm run dev
 ```
 
-Le styleguide est désormais stylisé et se recharge lorsque le CSS est mis à jour.
+Le styleguide est désormais stylisé.
 
 ### En cas de pépin (page blanche)
 
