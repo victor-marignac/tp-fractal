@@ -1,3 +1,5 @@
+Ce repository est un exemple de design system pour le site [htmlcss.netlify.com](https://htmlcss.netlify.com)
+
 ## Installation
 
 _Note : il est conseillé d'effectuer un fork de ce repository pour travailler sur votre propre version_
