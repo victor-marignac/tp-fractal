@@ -6,7 +6,6 @@ _Note : il est conseillé d'effectuer un fork de ce repository pour travailler s
 
 ```
 npm install
-npm run build
 npm run fractal
 ```
 
