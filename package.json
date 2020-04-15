@@ -1,0 +1,19 @@
+{
+  "name": "fractal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fractal": "cd styleguide && fractal start --sync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@frctl/fractal": "^1.2.1",
+    "sass": "^1.26.3"
+  }
+}

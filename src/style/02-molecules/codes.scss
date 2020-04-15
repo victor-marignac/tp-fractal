@@ -1,0 +1,21 @@
+.m-codes {
+  border-radius: var(--borderRadius);
+  background-color: var(--colorCodeLight);
+  padding: var(--spaceM);
+  display: flex;
+
+  .a-icon {
+    display: none;
+
+    @include medium {
+      display: block;
+      margin-right: var(--spaceM);
+    }
+  }
+}
+
+.m-codes__content {
+  & > * + * {
+    margin-top: var(--spaceM);
+  }
+}

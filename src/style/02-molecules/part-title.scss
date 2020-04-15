@@ -1,0 +1,20 @@
+.m-partTitle {
+  display: flex;
+  align-items: flex-end;
+}
+
+.m-partTitle--open {
+  .a-triangle {
+    @extend .a-triangle--down;
+  }
+}
+
+.m-partTitle__opener {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  & > * {
+    margin-right: 10px;
+  }
+}
