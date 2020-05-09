@@ -1,21 +1,17 @@
 .a-title {
-  color: var(--colorPrimary);
-  font-family: var(--fontFamilyTitle);
-}
-
-.a-title--level1 {
-  font-size: var(--fontSizeXXL);
-  text-transform: uppercase;
-}
-
-.a-title--level2 {
-  font-size: var(--fontSizeXL);
-}
-
-.a-title--level3 {
+  color: var(--colorMain);
+  font-family: var(--fontFamilyMain);
   font-size: var(--fontSizeL);
 }
 
-.a-title--reversed {
-  color: var(--colorTextReversed);
+.a-title--level2 {
+  font-size: var(--fontSizeM);
+}
+
+.a-title--level3 {
+  font-size: var(--fontSizeS);
+}
+
+.a-title--level4 {
+  font-size: var(--fontSizeXS);
 }

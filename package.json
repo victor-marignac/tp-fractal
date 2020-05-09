@@ -1,7 +1,7 @@
 {
   "name": "fractal",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ce repository est un exemple de design system pour le site [htmlcss.netlify.com](https://htmlcss.netlify.com)",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
@@ -16,5 +16,13 @@
     "@frctl/fractal": "^1.2.1",
     "parcel": "^1.12.4",
     "sass": "^1.26.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-marignac/tp-fractal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victor-marignac/tp-fractal/issues"
+  },
+  "homepage": "https://github.com/victor-marignac/tp-fractal#readme"
 }

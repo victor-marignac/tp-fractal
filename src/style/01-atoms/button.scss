@@ -1,0 +1,11 @@
+.a-button {
+  border: 1px solid var(--colorMain);
+  border-radius: var(--borderRadiusStandard);
+  color: var(--colorMain);
+  padding: var(--spaceS);
+
+  &:hover {
+    color: var(colorActive);
+    border: 1px solid var(--colorActive);
+  }
+}

@@ -1,32 +1,32 @@
 @mixin font($font-family, $file-path, $font-weight, $font-style) {
   @font-face {
     font-family: $font-family;
-    src: url('#{$file-path}.woff2') format('woff2'),
-      url('#{$file-path}.woff') format('woff');
+    src: url('#{$file-path}');
     font-weight: $font-weight;
     font-style: $font-style;
   }
 }
 
-@include font('Oswald', '../assets/fonts/Oswald/Oswald-Regular', 400, normal);
-@include font('Oswald', '../assets/fonts/Oswald/Oswald-Light', 300, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Regular', 400, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Bold', 900, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Italic', 400, italic);
+@include font('Roboto', '../assets/fonts/Roboto/Roboto-Regular.woff', normal, normal);
+@include font('Roboto', '../assets/fonts/Roboto/Roboto-Medium.woff', medium, normal);
+@include font('Roboto', '../assets/fonts/Roboto/Roboto-Italic.woff', normal, italic);
+@include font('Roboto', '../assets/fonts/Roboto/Roboto-Bold.woff', bold, italic);
 
 :root {
-  --fontFamilyTitle: Oswald, sans-serif;
   --fontFamilyMain: Roboto, sans-serif;
   --fontFamilyCode: monospace;
 
-  --fontSizeXXL: 80px;
-  --fontSizeXL: 32px;
   --fontSizeL: 24px;
-  --fontSizeM: 18px;
-  --fontSizeS: 14px;
+  --fontSizeM: 16px;
+  --fontSizeS: 12px;
+  --fontSizeXS: 8px;
 
-  --fontWeightBold: 900;
-  --fontWeightThin: 300;
+  --fontWeightBold: bold;
+  --fontWeightMedium: medium;
+  --fontWeightThin: thin;
+  --fontWeightRegular: normal;
+
+  --fontStyleItalic: italic;
 
   --lineHeightMain: 1.5;
   --lineHeightLarge: 2;

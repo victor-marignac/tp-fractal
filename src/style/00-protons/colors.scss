@@ -1,21 +1,10 @@
 :root {
-  --colorPrimary: #ed0661;
+  --colorText: #ebebeb;
+  --colorMain: #fafafa;
+  --colorActive: #ff886f;
+  --colorInactive: #949495;
+  --colorMenu: #1F1E21;
 
-  --colorSuccess: #38c138;
-  --colorSuccessLight: #c8f7b9;
-  --colorSuccessDark: #076b07;
-
-  --colorTextMain: #222222;
-  --colorTextSecondary: #666666;
-  --colorTextReversed: #ffffff;
-
-  --colorInfo: #dbf9eb;
-  --colorWarning: #f9e9db;
-
-  --colorCode: #006b89;
-  --colorCodeLight: #c8f0fd;
-
-  --colorQuestion: #e7d3f5;
-
-  --colorInputBorder: #666666;
+  --colorGradientOrange: linear-gradient(#fb876c, #fc64ae);
+  --colorGradientPurple: linear-gradient(#554cfb, #9e25fc);
 }
